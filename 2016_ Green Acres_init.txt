@@ -55,7 +55,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#d72f30",
             "secondary_color_hex": "#FFA0A0",
             "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/static/images/donald-trump-2016.jpg",
+            "image_url": "",
             "electoral_victory_message": "",
             "electoral_loss_message": "",
             "no_electoral_majority_message": "",
@@ -323,7 +323,7 @@ nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#5d866c";
 document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
 
 // Apply a tiled background image with a color fallback for the game window
-$("#game_window")[0].style.background = "#5d866c url('https://i.ibb.co/Jw73mwsZ/Untitled509-20251105231059.png') repeat";
+$("#game_window")[0].style.background = "#5d866c url('https://i.ibb.co/vCBHFC4w/Untitled509-20251106052745.png') repeat";
 
 // Container color remains solid
 $(".container")[0].style.backgroundColor = "#31694e";
