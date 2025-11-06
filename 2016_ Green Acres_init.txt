@@ -314,20 +314,29 @@ jet_data = {
 
 
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#1d432f";
+//#startcode
 
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#1d432f";
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#5d866c";
 
+// Set title bar color
 document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
 
-$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+// Apply a tiled background image with a color fallback for the game window
+$("#game_window")[0].style.background = "#5d866c url('https://i.ibb.co/Jw73mwsZ/Untitled509-20251105231059.png') repeat";
 
+// Container color remains solid
 $(".container")[0].style.backgroundColor = "#31694e";
 
+// Header and overall background
 document.getElementById("header").src = "https://i.ibb.co/pBZkq7g1/18-AEF531-8-F94-4-BD5-9739-5727-D08-B7844.png";
-
 document.body.background = "https://i.ibb.co/7dgHC8Bz/Untitled496-20251105194316.png";
 
-document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#658c58!important;}</style>";
+document.head.innerHTML += `
+<style>
+  #results_container { color: #000000; }
+  .inner_window_w_desc { background-color: #658c58 !important; }
+</style>
+`;
 
 //#endcode
