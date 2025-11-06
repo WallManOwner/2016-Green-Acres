@@ -1,0 +1,333 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 16,
+        "fields": {
+            "year": 2016,
+            "summary": "<p>After two terms of Barack Obama, it's finally election season in America, and its constituents are ready to choose between two options.</p><p><b>Hillary Clinton</b> has won the Democratic nomination, despite having to fight off Bernie Sanders' grassroots movement. She must now take this opportunity to unify the party and satisfy the disgruntled Progressives. <b>John Kasich</b>, the Governor of Ohio, has won the Republican nomination and plans to run an upbeat, Optimistic campaign. If he can satisfy Conservatives and moderates, it may work out. <i>Many Voters have been feeling dissatisfied with their choices this campaign, but of Course, it's not like they have a third Choice?</i></p>",
+            "image_url": "https://i.ibb.co/Z683qqsf/Untitled507-20251105194446.png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://www.jetsimon.com/public/static/images/mook-lewandowski-2016.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Articles</h4>FiveThirtyEight - <a href=\"http://projects.fivethirtyeight.com/2016-swing-the-election/\" target=\"_blank\"> What Would It Take To Turn Blue States Red?</a></br><a href=\"http://thehill.com/blogs/ballot-box/presidential-races/274317-anti-trump-forces-point-to-losing-match-ups-with-clinton\">Anti-Trump forces seize on grim polls for Clinton match-up</a></br><a href=\"http://www.slate.com/blogs/the_slatest/2016/02/24/donald_trump_could_beat_hillary_clinton_in_the_general.html\">Think Hillary Clinton Will Crush Donald Trump in the General Election? Don’t Be So Sure.</a></br><a href=\"http://www.slate.com/blogs/the_slatest/2016/03/01/hillary_clinton_plots_her_general_election_trump_strategy.html\">How Team Clinton Is Planning to Defeat Trump</a></br><a href=\"http://www.vox.com/2016/2/10/10961324/donald-trump-win-november\">Here's Donald Trump's Best Strategy for Winning the White House</a><h4>Books</h4>\rHillary Clinton - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1476751471/amhius20-20\" target=\"_blank\">Hard Choices</a></br>\rHillary Clinton - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0743222253/amhius20-20\" target=\"_blank\">Living History</a></br>\rDonald Trump - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1501137964/amhius20-20\" target=\"_blank\">Crippled America: How to Make America Great Again</a></br>\rDonald Trump - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0399594493/amhius20-20\" target=\"_blank\">The Art of the Deal</a></br>\rGary Johnson - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B008PXW0C0/amhius20-20\" target=\"_blank\">Seven Principles of Good Government</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2016: Green Acres"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 165,
+        "fields": {
+            "first_name": "Hillary",
+            "last_name": "Clinton",
+            "election": 16,
+            "party": "Democrat",
+            "state": "New York",
+            "priority": 1,
+            "description": "",
+            "color_hex": "#584cde",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/hillary-clinton-2016.jpg",
+            "electoral_victory_message": "",
+            "electoral_loss_message": "",
+            "no_electoral_majority_message": "",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 166,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Kasich",
+            "election": 16,
+            "party": "Republican",
+            "state": "Ohio",
+            "priority": 2,
+            "description": "",
+            "color_hex": "#d72f30",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/donald-trump-2016.jpg",
+            "electoral_victory_message": "",
+            "electoral_loss_message": "",
+            "no_electoral_majority_message": "",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 167,
+        "fields": {
+            "first_name": "Gary",
+            "last_name": "Johnson",
+            "election": 16,
+            "party": "Libertarian",
+            "state": "New Mexico",
+            "priority": 3,
+            "description": "'",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 168,
+        "fields": {
+            "first_name": "Donald",
+            "last_name": "Trump",
+            "election": 16,
+            "party": "Green",
+            "state": "Arkansas",
+            "priority": 4,
+            "description": "<p>Donald Trump is a strange character, once a rich business executive in the Big Apple, and son and heir of Estate-Mogul Fred Trump, Donald Trump has dropped it all. After his appearance at the 2005 Emmy, where he dressed up as a Farmer, a fun tongue-in-cheek joke made Trump realize his true passion: being a farmer.\n</p>\n<p> Trump sold almost all his assets and bought a small farm in Arkansas, refusing to speak to the media a single time, fully devoted to an agrarian lifestyle. Over 10 years later, Donald Trump has returned spiritually awakened, mastering how to art on how to live off the earth, and he has returned with a vengeance.\n</p>\n<p>Angered by the Democratic Establishment and the Obama administration for being too moderate and underdelivering, Trump has entered National Politics under the Green Party, easily dethroning Jill Stein from her party in the primary. Trump is ready to run the most Progressive campaign ever and hopes to gain the support of 'Bernie Bros' who wanted change but instead got Hillary Clinton. Nonetheless, it will be an uphill battle to convince the public that a former Billionaire wanting Billionaires to be taxed more isn't silly.</p>",
+            "color_hex": "#199268",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 1,
+            "image_url": "https://i.ibb.co/Jwj2zv5f/Untitled506-20251105193749.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 169,
+        "fields": {
+            "first_name": "Cory",
+            "last_name": "Booker",
+            "election": 16,
+            "party": "Democrat",
+            "state": "New Jersey",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 173,
+        "fields": {
+            "first_name": "Scott",
+            "last_name": "Brown",
+            "election": 16,
+            "party": "Republican",
+            "state": "New Hampshire",
+            "priority": 9,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 177,
+        "fields": {
+            "first_name": "James",
+            "last_name": "Gray",
+            "election": 16,
+            "party": "Libertarian",
+            "state": "New Mexico",
+            "priority": 13,
+            "description": "'",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 178,
+        "fields": {
+            "first_name": "Jesse",
+            "last_name": "Ventura",
+            "election": 16,
+            "party": "Independent (Formally Reform)",
+            "state": "Minnesota",
+            "priority": 14,
+            "description": "'",
+            "color_hex": "#199268",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "https://i.ibb.co/x82bhc7x/Untitled506-20251105193742.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Retired Professional Wrestler and the former Governor of Minnesota, winning in quite an upset in a Party that had no major successes beforehand, Ventura would be a great second-in-command for your campaign, as well as giving much-needed experience to the ticket.\n</p><p>But Ventura comes with some baggage, in fact, when you work with Ventura, baggage is something you're gonna get a lot of. From believing and supporting 9/11 truthers as well as believing in many other conspiracy theories, from the Kennedy assassination, national surveillance, secret societies, and generally looking and acting like a crazy old man. So why does Trump trust Ventura? Because Ventura is his friend, they have been buddies since the 90s, and Ventura almost convinced Trump to be the reform nominee in 2000, and this is Trump's return of Ventura's favor.\n</p><p>When looking at his many flaws, it is definitely possible to use Ventura's problem more beneficially. He'll be as much of an attack dog as you are and will generate a lot of publicity for your campaign. And for a third-party campaign, there's no such thing as bad showbiz.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 116,
+        "fields": {
+            "candidate": 168,
+            "running_mate": 178
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 115,
+        "fields": {
+            "candidate": 167,
+            "running_mate": 177
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 107,
+        "fields": {
+            "candidate": 165,
+            "running_mate": 169
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 111,
+        "fields": {
+            "candidate": 166,
+            "running_mate": 173
+        }
+    }
+]
+
+campaignTrail_temp.credits = "RosemaryThe (u/Wall-Man-) (@RoseTheRoseThe)"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 16,
+        "candidates": [
+            165,
+            166,
+            167,
+            168
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 16,
+        "candidates": [
+            165,
+            166,
+            167,
+            168
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 16,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "2016: Green Acres"
+    }
+]
+
+jet_data = {
+    "headerColor": "#1d432f",
+    "windowColor": "#5d866c",
+    "containerColor": "#31694e",
+    "innerWindowColor": "#658c58",
+    "bannerImageUrl": "https://i.ibb.co/pBZkq7g1/18-AEF531-8-F94-4-BD5-9739-5727-D08-B7844.png",
+    "backgroundImageUrl": "https://i.ibb.co/7dgHC8Bz/Untitled496-20251105194316.png",
+    "endingTextColor": "#000000",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#1d432f";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#5d866c";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#31694e";
+
+document.getElementById("header").src = "https://i.ibb.co/pBZkq7g1/18-AEF531-8-F94-4-BD5-9739-5727-D08-B7844.png";
+
+document.body.background = "https://i.ibb.co/7dgHC8Bz/Untitled496-20251105194316.png";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#658c58!important;}</style>";
+
+//#endcode
